@@ -13,7 +13,7 @@ set(IncludeDir include/) # Change include/ to your include directory
 include_directories(${IncludeDir})
 
 # Comment this line if you wish to compile your own programs source code
-set(SourceFiles src/main.cpp)
+set(SourceFiles src/main.cpp src/board.cpp)
 
 # From this point on, you don't need to worry about what the code does, it just manages dependancies, linking and compilation
 #enjoy tinkering!
